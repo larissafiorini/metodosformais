@@ -44,3 +44,29 @@ ensures x == Fib(n)
         i:=i+1;
     }
 }
+// aula 21.10.19
+method Busca(a:array<nat>, e:nat) returns (r:bool)
+ensures r <==> exists i :: 0 <= i < a.Length && a[i]==e
+{
+    var pos := 0;
+    while pos < a.Length
+    invariant 0 <= pos <= a.Length
+    invariant forall i :: 0 <= i < pos ==> a[i] != e
+    {
+        if a[pos] == e
+        {
+            return true;
+        }
+        pos := pos+1;
+    }
+    return false;
+}
+
+
+method FindMax(a:array<int>) returns (i:int)
+requires a.Length > 0
+ensures 0 <= i < a.Length
+ensures forall j :: 0 <= j < a.Length ==> a[i] >= a[j] 
+{
+    
+}
