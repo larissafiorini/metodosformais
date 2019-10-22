@@ -68,5 +68,17 @@ requires a.Length > 0
 ensures 0 <= i < a.Length
 ensures forall j :: 0 <= j < a.Length ==> a[i] >= a[j] 
 {
-    
+    i := 0;
+    var indice <=0;
+    while indice < a.Length
+    invariant 0 <= indice < a.Length
+    invariant 0 <= i < a.Length
+    invariant forall j :: 0 <= j < indice ==> a[i] >= a[j]
+    {
+        if a[indice] > a[i]
+        {
+            i := indice;
+        }
+        indice := indice+1;
+    }
 }
