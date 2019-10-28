@@ -62,7 +62,7 @@ ensures r <==> exists i :: 0 <= i < a.Length && a[i]==e
     return false;
 }
 
-
+// aula 23.10.19
 method FindMax(a:array<int>) returns (i:int)
 requires a.Length > 0
 ensures 0 <= i < a.Length
@@ -80,5 +80,46 @@ ensures forall j :: 0 <= j < a.Length ==> a[i] >= a[j]
             i := indice;
         }
         indice := indice+1;
+    }
+}
+
+predicate sorted(a: array<int>)
+reads a
+{
+    forall i, j :: 0 <= i < j < a.Length ==> a[i] < a[j]
+}
+
+
+function product(a: array<int>): int
+reads a;
+{
+productAux(a, 0, a.Length-1) 
+}
+
+function productAux(a: array<int>, from:nat, to:int): int 
+requires to < a.Length;
+reads a;
+decreases to-from;
+{
+    if ( from > to )
+    then 1
+    else if ( from==to )
+    then a[to]
+    else productAux(a,from,to-1) * a[to]
+}
+
+method Product(a: array<int>) returns (p: int) 
+requires a.Length > 0
+ensures p == product(a)
+{
+    var i := 0;
+    p := 1;
+
+    while(i < a.Length) 
+    invariant 0 <= i <= a.Length
+    invariant p == productAux(a, 0, i - 1)
+    {
+        p := p * a[i];
+        i := i + 1;
     }
 }
