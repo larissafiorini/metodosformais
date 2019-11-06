@@ -3,8 +3,9 @@ model hotel
 class Key end
 class Card end
 class Guest end
-
+class Payment end
 class Desk end
+
 constraints
 context Desk inv oneDesk: Desk.allInstances->size=1
 
@@ -33,6 +34,12 @@ association cards between
     Guest [*] role guest4cards
     Card [*] role card4cards
 end
+association pay between 
+    Guest [1] role guest4pay
+    Payment [1] role pay4guest
+    RoomService [1] role pay4service
+end
+
 
 class Room
 operations
@@ -45,35 +52,44 @@ operations
         Card.allInstances.guest4cards->isEmpty
     
     checkin(g:Guest)
-    pre key_exists:
-        Key.allInstances->exists(k| Desk.allInstances.key4issued->excludes(k))
-    post fst_snd_ok_cards_issued_prev_updated:
-        Card.allInstances->exists(c|
-        self.key4prev->includes(c.key4fst) and
-        Desk.allInstances.key4issued->excludes(c.key4snd) and
-        g.card4cards = g.card4cards@pre->including(c) and
-        Desk.allInstances->forAll(d|
-            d.key4issued = d.key4issued@pre->including(c.key4snd)) and
-        self.key4prev = Set{c.key4snd})
-    post key_unchanged:
-        self.key4key@pre = self.key4key
+        pre key_exists:
+            Key.allInstances->exists(k| Desk.allInstances.key4issued->excludes(k))
+        post fst_snd_ok_cards_issued_prev_updated:
+            Card.allInstances->exists(c|
+            self.key4prev->includes(c.key4fst) and
+            Desk.allInstances.key4issued->excludes(c.key4snd) and
+            g.card4cards = g.card4cards@pre->including(c) and
+            Desk.allInstances->forAll(d|
+                d.key4issued = d.key4issued@pre->including(c.key4snd)) and
+            self.key4prev = Set{c.key4snd})
+        post key_unchanged:
+            self.key4key@pre = self.key4key
 
     enter(g:Guest)
-    pre key_matches:
-        g.card4cards->exists(c|
-            let k = key4key in c.key4snd = k or c.key4fst = k
-    post key_updated:
-        g.card4cards->exists(c|
-            let k = key4key in
-                (c.key4snd = k and self.key4key = self.key4key@pre) or
-                (c.key4fst = k and self.key4key = c.key4snd))
-    post issued_unchanged:
-        Desk.allInstances->forAll(d|d.key4issued@pre = d.key4issued)
-    post prev_unchanged:
-        Room.allInstances->forAll(r|
-            self.desk4prev@pre = self.desk4prev
-            and self.key4prev@pre = self.key4prev)
-    post cards_unchanged:
-        Card.allInstances->forAll(c|c.guest4cards@pre = c.guest4cards)
+        pre key_matches:
+            g.card4cards->exists(c|
+                let k = key4key in c.key4snd = k or c.key4fst = k)
+        post key_updated:
+            g.card4cards->exists(c|
+                let k = key4key in
+                    (c.key4snd = k and self.key4key = self.key4key@pre) or
+                    (c.key4fst = k and self.key4key = c.key4snd))
+        post issued_unchanged:
+            Desk.allInstances->forAll(d|d.key4issued@pre = d.key4issued)
+        post prev_unchanged:
+            Room.allInstances->forAll(r|
+                self.desk4prev@pre = self.desk4prev
+                and self.key4prev@pre = self.key4prev)
+        post cards_unchanged:
+            Card.allInstances->forAll(c|c.guest4cards@pre = c.guest4cards)
         
+end
+
+class RoomService
+    operations
+        pay(c: Card, g: Guest, p: Payment)
+            pre card_matches:
+                g.card4cards->includes(c)
+            post payment_done:
+                g.guest4pay
 end
