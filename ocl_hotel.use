@@ -90,15 +90,15 @@ operations
     end
     
 class RoomService
+attributes
+	service_payment : Payment
 operations
     init()
     pay(c: Card, g: Guest, p: Payment)
         pre card_matches:
             g.card4cards->includes(c)
         pre payment_isnull:
-
-        post payment_done://tem alguem associado que antes nao tinha, fazer por atributo v ou f
-            self.payroom = g.pay4guest->exists(c|
-                g.pay4guest = );
-       
+			self.service_payment.oclIsUndefined()  
+		post payment_done: 
+			self.service_payment = p
 end
