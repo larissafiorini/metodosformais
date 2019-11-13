@@ -55,7 +55,7 @@ operations
         post no_cards:
         Card.allInstances.guest4cards->isEmpty
         
-        checkin(g:Guest)
+    checkin(g:Guest)
         pre key_exists:
         Key.allInstances->exists(k| Desk.allInstances.key4issued->excludes(k))
         post fst_snd_ok_cards_issued_prev_updated:
@@ -69,7 +69,7 @@ operations
         post key_unchanged:
         self.key4key@pre = self.key4key
         
-        enter(g:Guest)
+    enter(g:Guest)
         pre key_matches:
             g.card4cards->exists(c|
                 let k = key4key in c.key4snd = k or c.key4fst = k)
