@@ -29,9 +29,9 @@ sig Payment{}
 
 pred pay (t, t':Time, c: Card, g: Guest, p: Payment) {
 	// Pre-condicao: card_matches t
-	some c:cards {
+	//some c:cards {
 	// cards.t  
-	}
+	//}
 	// Pre-condicao: service_payment ta null t
 	no service_payment.t
 
