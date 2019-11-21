@@ -28,16 +28,15 @@ sig RoomService {
 sig Payment{}
 
 pred pay (t, t':Time, c: Card, g: Guest, p: Payment) {
-	// Pre-condicao: card_matches t
-	//some c:cards {
-	// cards.t  
-	//}
-	// Pre-condicao: service_payment ta null t
+	// Pre-condicao: card fornecido no pagamento corresponde ao card do guest
+	some cardguest: g.cards.t {
+		c in cardguest
+	}
+
+	// Pre-condicao: service_payment nao recebeu pagamento
 	no service_payment.t
 
-	//service_payment in Payment is none
-
-	// Pos-condicao: service_payment foi atribuido t'
+	// Pos-condicao: pagamento foi atribuido a service_payment
 	RoomService.service_payment.t' = p
 }
 
@@ -85,6 +84,6 @@ assert NoIntruder {
 
 // check NoIntruder for 6 but 12 Time, 3 Guest, 3 Room
 
-run pay for 6 but 12 Time, 3 Guest, 3 Room, 3 Payment
+run pay for 6 but 12 Time, 1 Guest, 1 Room, 1 Payment, 1 RoomService
 
 // Fonte: https://www.doc.ic.ac.uk/project/examples/2007/271j/suprema_on_alloy/Web/tutorial1_1.php
