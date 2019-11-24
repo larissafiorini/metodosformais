@@ -57,17 +57,17 @@ operations
         
     checkin(g:Guest)
         pre key_exists:
-        Key.allInstances->exists(k| Desk.allInstances.key4issued->excludes(k))
+            Key.allInstances->exists(k| Desk.allInstances.key4issued->excludes(k))
         post fst_snd_ok_cards_issued_prev_updated:
-        Card.allInstances->exists(c|
-        self.key4prev->includes(c.key4fst) and
-        Desk.allInstances.key4issued->excludes(c.key4snd) and
-        g.card4cards = g.card4cards@pre->including(c) and
-        Desk.allInstances->forAll(d|
-        d.key4issued = d.key4issued@pre->including(c.key4snd)) and
-        self.key4prev = Set{c.key4snd})
-        post key_unchanged:
-        self.key4key@pre = self.key4key
+            Card.allInstances->exists(c|
+            self.key4prev->includes(c.key4fst) and
+            Desk.allInstances.key4issued->excludes(c.key4snd) and
+            g.card4cards = g.card4cards@pre->including(c) and
+            Desk.allInstances->forAll(d|
+            d.key4issued = d.key4issued@pre->including(c.key4snd)) and
+            self.key4prev = Set{c.key4snd})
+            post key_unchanged:
+            self.key4key@pre = self.key4key
         
     enter(g:Guest)
         pre key_matches:

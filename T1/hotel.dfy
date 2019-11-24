@@ -36,7 +36,7 @@ class Guest
 class Desk 
 {
     var issued: seq<Key>;
-    var prv: Room?;
+    var prv: Room;
 
     constructor(p: Room)
     {
@@ -54,13 +54,15 @@ class Room
     }
     method Checkin(g: Guest)
     {
-
+        
     }
 
     method Enter(g: Guest, d: Desk) 
     requires |g.cards| > 0
     requires exists i :: 0 <= i < |g.cards| && (g.cards[i].fst == key || g.cards[i].snd == key)
     ensures exists i :: 0 <= i < |g.cards| && g.cards[i].snd == key
+    ensures d.issued == old(d.issued)
+    ensures g.cards == old(g.cards)
     modifies this
     {
         var i := 0;
