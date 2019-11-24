@@ -1,25 +1,26 @@
 module hotel
-
 open util/ordering [Time]
 
 sig Key, Time {}
-
 sig Card {
 	fst, snd: Key
 }
-
 sig Room {
 	key: Key one-> Time
 }
-
 one sig Desk {
 	issued: Key-> Time,
 	prev: (Room-> lone Key)-> Time
 }
-
 sig Guest {
 	cards: Card-> Time
 }
+
+pred init (t: Time) {
+	Desk.prev.t = key.t
+	Desk.issued.t = Room.key.t and no cards.t
+}
+
 
 sig RoomService {
 	service_payment: Payment lone -> Time  
@@ -38,11 +39,6 @@ pred pay (t, t':Time, c: Card, g: Guest, p: Payment) {
 
 	// Pos-condicao: pagamento foi atribuido a service_payment
 	RoomService.service_payment.t' = p
-}
-
-pred init (t: Time) {
-	Desk.prev.t = key.t
-	Desk.issued.t = Room.key.t and no cards.t
 }
 
 pred checkin (t, t': Time, r: Room, g: Guest) {
