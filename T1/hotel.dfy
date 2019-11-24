@@ -57,23 +57,26 @@ class Room
 
     }
 
-    method Enter(g: Guest) 
+    method Enter(g: Guest, d: Desk) 
     requires |g.cards| > 0
-    requires exists i :: 0 <= i < |g.cards| && (g.cards[i].fst.value == key.value || g.cards[i].snd.value == key.value)
-    modifies key
+    requires exists i :: 0 <= i < |g.cards| && (g.cards[i].fst == key || g.cards[i].snd == key)
+    ensures exists i :: 0 <= i < |g.cards| && g.cards[i].snd == key
+    modifies this
     {
         var i := 0;
         var count := |g.cards|;
 
         while(i < count)
         {
-            if (g.cards[i].fst == key) 
+            if (g.cards[i].fst == key)             
             {
-                key.value := g.cards[i].snd.value;
+                key := g.cards[i].snd;
                 break;
             }
             i := i + 1;
         }
+        
+        assume exists i :: 0 <= i < |g.cards| && g.cards[i].snd == key;
     }
 }
 
