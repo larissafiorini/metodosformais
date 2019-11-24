@@ -36,7 +36,7 @@ class Guest
 class Desk 
 {
     var issued: seq<Key>;
-    var prv: Room;
+    var prv: Room?;
 
     constructor(p: Room)
     {
@@ -58,8 +58,9 @@ class Room
     }
 
     method Enter(g: Guest) 
-    requires exists i :: 0 <= i < |g.cards| && (g.cards[i].fst == key || g.cards[i].snd == key);
     requires |g.cards| > 0
+    requires exists i :: 0 <= i < |g.cards| && (g.cards[i].fst.value == key.value || g.cards[i].snd.value == key.value)
+    modifies key
     {
         var i := 0;
         var count := |g.cards|;
@@ -68,11 +69,8 @@ class Room
         {
             if (g.cards[i].fst == key) 
             {
-
-            }
-            else if (g.cards[i].snd == key) 
-            {
-                
+                key.value := g.cards[i].snd.value;
+                break;
             }
             i := i + 1;
         }
@@ -81,13 +79,18 @@ class Room
 
 class Payment
 {
-
+    var value: nat
 }
 
 class RoomService
 {
+    var servicePayment: Payment?
     method Pay(c: Card, g: Guest, p: Payment) 
+    requires servicePayment == null
+    requires exists i :: 0 <= i < |g.cards| && (g.cards[i] == c)
+    ensures servicePayment != null
+    modifies this
     {
-
+        servicePayment := p;
     }
 }

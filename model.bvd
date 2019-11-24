@@ -1,0 +1,1588 @@
+*** MODEL
+##_System._tuple#0._#Make0 -> T@U!val!42
+##_System._tuple#2._#Make2 -> T@U!val!36
+#_System._tuple#0._#Make0 -> T@U!val!81
+$$Language$Dafny -> true
+$_Frame -> **$_Frame
+$_Frame@0 -> T@U!val!113
+$_reverifyPost -> **$_reverifyPost
+$decr$loop#00 -> **$decr$loop#00
+$decr$loop#00@0 -> **$decr$loop#00@0
+$decr$loop#00@1 -> 1
+$decr_init$loop#00 -> **$decr_init$loop#00
+$decr_init$loop#00@0 -> 906
+$FunctionContextHeight -> 11
+$Heap@@5 -> T@U!val!105
+$Heap@0 -> T@U!val!108
+$Heap@1 -> T@U!val!108
+$Heap@2 -> T@U!val!108
+$Heap_at_0 -> **$Heap_at_0
+$mv_state_const -> 15
+$OneHeap -> T@U!val!76
+$PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+$rhs#0_0_0 -> 0
+$rhs#0_0_0@0 -> 4096
+$Tick -> **$Tick
+$w$loop#0 -> **$w$loop#0
+$w$loop#0@0 -> true
+%lbl%@11 -> false
+%lbl%@36 -> true
+%lbl%+10 -> true
+%lbl%+12 -> true
+%lbl%+13 -> true
+%lbl%+25 -> true
+%lbl%+29 -> true
+%lbl%+30 -> true
+%lbl%+31 -> true
+%lbl%+33 -> true
+%lbl%+34 -> true
+%lbl%+37 -> true
+_module.Card.fst -> T@U!val!88
+_module.Card.guests -> T@U!val!86
+_module.Card.snd -> T@U!val!89
+_module.Desk.issued -> T@U!val!94
+_module.Desk.prv -> T@U!val!95
+_module.Guest.cards -> T@U!val!92
+_module.Key.value -> T@U!val!83
+_module.Room.key -> T@U!val!99
+alloc -> T@U!val!23
+allocName -> T@U!val!24
+boolType -> T@T!val!2
+BoxType -> T@T!val!10
+charType -> T@T!val!11
+class._module.__default -> T@U!val!65
+class._module.Card? -> T@U!val!47
+class._module.Desk? -> T@U!val!53
+class._module.Guest? -> T@U!val!51
+class._module.Key? -> T@U!val!44
+class._module.Payment? -> T@U!val!59
+class._module.Room? -> T@U!val!58
+class._module.RoomService? -> T@U!val!62
+class._System.array? -> T@U!val!29
+class._System.bool -> T@U!val!19
+class._System.int -> T@U!val!18
+class._System.multiset -> T@U!val!22
+class._System.object? -> T@U!val!26
+class._System.seq -> T@U!val!21
+class._System.set -> T@U!val!20
+class._System.Tuple0 -> T@U!val!41
+class._System.Tuple2 -> T@U!val!35
+ClassNameType -> T@T!val!6
+count#0 -> **count#0
+count#0@0 -> 906
+DatatypeTypeType -> T@T!val!13
+DtCtorIdType -> T@T!val!9
+field$cards -> T@U!val!71
+field$fst -> T@U!val!69
+field$guests -> T@U!val!68
+field$issued -> T@U!val!72
+field$key -> T@U!val!74
+field$prv -> T@U!val!73
+field$snd -> T@U!val!70
+field$value -> T@U!val!67
+g#0 -> T@U!val!106
+HandleTypeType -> T@T!val!16
+i#2!836!153 -> 250
+i#4 -> **i#4
+i#4@0 -> 0
+i#4@1 -> 905
+i#5 -> **i#5
+i#6@@0!841!155 -> 310
+i#6@@2!841!154 -> 676
+intType -> T@T!val!0
+LayerTypeType -> T@T!val!14
+NameFamilyType -> T@T!val!8
+NoTraitAtAll -> T@U!val!17
+null -> T@U!val!78
+realType -> T@T!val!1
+refType -> T@T!val!12
+rmodeType -> T@T!val!3
+TagBool -> T@U!val!5
+TagChar -> T@U!val!6
+TagClass -> T@U!val!16
+Tagclass._module.__default -> T@U!val!66
+Tagclass._module.Card -> T@U!val!50
+Tagclass._module.Card? -> T@U!val!48
+Tagclass._module.Desk -> T@U!val!56
+Tagclass._module.Desk? -> T@U!val!54
+Tagclass._module.Guest -> T@U!val!49
+Tagclass._module.Guest? -> T@U!val!52
+Tagclass._module.Key -> T@U!val!46
+Tagclass._module.Key? -> T@U!val!45
+Tagclass._module.Payment -> T@U!val!61
+Tagclass._module.Payment? -> T@U!val!60
+Tagclass._module.Room -> T@U!val!57
+Tagclass._module.Room? -> T@U!val!55
+Tagclass._module.RoomService -> T@U!val!64
+Tagclass._module.RoomService? -> T@U!val!63
+Tagclass._System.___hFunc0 -> T@U!val!32
+Tagclass._System.___hFunc1 -> T@U!val!38
+Tagclass._System.___hPartialFunc0 -> T@U!val!33
+Tagclass._System.___hPartialFunc1 -> T@U!val!39
+Tagclass._System.___hTotalFunc0 -> T@U!val!34
+Tagclass._System.___hTotalFunc1 -> T@U!val!40
+Tagclass._System.array -> T@U!val!31
+Tagclass._System.array? -> T@U!val!30
+Tagclass._System.nat -> T@U!val!25
+Tagclass._System.object -> T@U!val!28
+Tagclass._System.object? -> T@U!val!27
+Tagclass._System.Tuple0 -> T@U!val!43
+Tagclass._System.Tuple2 -> T@U!val!37
+TagIMap -> T@U!val!15
+TagInt -> T@U!val!7
+TagISet -> T@U!val!11
+TagMap -> T@U!val!14
+TagMultiSet -> T@U!val!12
+TagORDINAL -> T@U!val!9
+TagReal -> T@U!val!8
+TagSeq -> T@U!val!13
+TagSet -> T@U!val!10
+TBool -> T@U!val!0
+TChar -> T@U!val!1
+Tclass._module.__default -> T@U!val!104
+Tclass._module.Card -> T@U!val!90
+Tclass._module.Card? -> T@U!val!85
+Tclass._module.Desk -> T@U!val!97
+Tclass._module.Desk? -> T@U!val!93
+Tclass._module.Guest -> T@U!val!87
+Tclass._module.Guest? -> T@U!val!91
+Tclass._module.Key -> T@U!val!84
+Tclass._module.Key? -> T@U!val!82
+Tclass._module.Payment -> T@U!val!101
+Tclass._module.Payment? -> T@U!val!100
+Tclass._module.Room -> T@U!val!98
+Tclass._module.Room? -> T@U!val!96
+Tclass._module.RoomService -> T@U!val!103
+Tclass._module.RoomService? -> T@U!val!102
+Tclass._System.nat -> T@U!val!77
+Tclass._System.object -> T@U!val!79
+Tclass._System.object? -> T@U!val!75
+Tclass._System.Tuple0 -> T@U!val!80
+this@@1 -> T@U!val!107
+TInt -> T@U!val!2
+TORDINAL -> T@U!val!4
+TReal -> T@U!val!3
+TyTagType -> T@T!val!5
+TyType -> T@T!val!4
+unique-value!100 -> distinct-elems!76!val!22
+unique-value!101 -> distinct-elems!76!val!23
+unique-value!102 -> distinct-elems!76!val!24
+unique-value!103 -> distinct-elems!76!val!25
+unique-value!104 -> distinct-elems!76!val!26
+unique-value!105 -> distinct-elems!76!val!27
+unique-value!106 -> distinct-elems!76!val!28
+unique-value!107 -> distinct-elems!76!val!29
+unique-value!108 -> distinct-elems!76!val!30
+unique-value!109 -> distinct-elems!76!val!31
+unique-value!110 -> distinct-elems!76!val!32
+unique-value!111 -> distinct-elems!76!val!33
+unique-value!112 -> distinct-elems!76!val!34
+unique-value!113 -> distinct-elems!76!val!35
+unique-value!114 -> distinct-elems!76!val!36
+unique-value!115 -> distinct-elems!76!val!37
+unique-value!116 -> distinct-elems!76!val!38
+unique-value!117 -> distinct-elems!76!val!39
+unique-value!118 -> distinct-elems!76!val!40
+unique-value!119 -> distinct-elems!76!val!41
+unique-value!120 -> distinct-elems!76!val!42
+unique-value!121 -> distinct-elems!76!val!43
+unique-value!122 -> distinct-elems!76!val!44
+unique-value!123 -> distinct-elems!76!val!45
+unique-value!124 -> distinct-elems!76!val!46
+unique-value!125 -> distinct-elems!76!val!47
+unique-value!126 -> distinct-elems!76!val!48
+unique-value!127 -> distinct-elems!76!val!49
+unique-value!128 -> distinct-elems!76!val!50
+unique-value!129 -> distinct-elems!76!val!51
+unique-value!130 -> distinct-elems!76!val!52
+unique-value!131 -> distinct-elems!76!val!53
+unique-value!132 -> distinct-elems!76!val!54
+unique-value!133 -> distinct-elems!76!val!55
+unique-value!134 -> distinct-elems!76!val!56
+unique-value!135 -> distinct-elems!76!val!57
+unique-value!136 -> distinct-elems!76!val!58
+unique-value!137 -> distinct-elems!76!val!59
+unique-value!138 -> distinct-elems!76!val!60
+unique-value!139 -> distinct-elems!76!val!61
+unique-value!140 -> distinct-elems!76!val!62
+unique-value!141 -> distinct-elems!76!val!63
+unique-value!142 -> distinct-elems!76!val!64
+unique-value!143 -> distinct-elems!76!val!65
+unique-value!144 -> distinct-elems!76!val!66
+unique-value!145 -> distinct-elems!76!val!67
+unique-value!146 -> distinct-elems!76!val!68
+unique-value!147 -> distinct-elems!76!val!69
+unique-value!148 -> distinct-elems!76!val!70
+unique-value!149 -> distinct-elems!76!val!71
+unique-value!150 -> distinct-elems!76!val!72
+unique-value!151 -> distinct-elems!76!val!73
+unique-value!152 -> distinct-elems!76!val!74
+unique-value!78 -> distinct-elems!76!val!0
+unique-value!79 -> distinct-elems!76!val!1
+unique-value!80 -> distinct-elems!76!val!2
+unique-value!81 -> distinct-elems!76!val!3
+unique-value!82 -> distinct-elems!76!val!4
+unique-value!83 -> distinct-elems!76!val!5
+unique-value!84 -> distinct-elems!76!val!6
+unique-value!85 -> distinct-elems!76!val!7
+unique-value!86 -> distinct-elems!76!val!8
+unique-value!87 -> distinct-elems!76!val!9
+unique-value!88 -> distinct-elems!76!val!10
+unique-value!89 -> distinct-elems!76!val!11
+unique-value!90 -> distinct-elems!76!val!12
+unique-value!91 -> distinct-elems!76!val!13
+unique-value!92 -> distinct-elems!76!val!14
+unique-value!93 -> distinct-elems!76!val!15
+unique-value!94 -> distinct-elems!76!val!16
+unique-value!95 -> distinct-elems!76!val!17
+unique-value!96 -> distinct-elems!76!val!18
+unique-value!97 -> distinct-elems!76!val!19
+unique-value!98 -> distinct-elems!76!val!20
+unique-value!99 -> distinct-elems!76!val!21
+$Box -> {
+  T@U!val!111 -> T@U!val!110
+  T@U!val!115 -> T@U!val!114
+  T@U!val!117 -> T@U!val!116
+  T@U!val!119 -> T@U!val!118
+  else -> T@U!val!118
+}
+$HeapSucc -> {
+  T@U!val!105 T@U!val!105 -> true
+  T@U!val!105 T@U!val!108 -> true
+  else -> true
+}
+$Is -> {
+  4096 T@U!val!77 -> true
+  T@U!val!106 T@U!val!87 -> true
+  T@U!val!106 T@U!val!91 -> true
+  T@U!val!107 T@U!val!96 -> true
+  T@U!val!107 T@U!val!98 -> true
+  T@U!val!109 T@U!val!122 -> true
+  T@U!val!111 T@U!val!85 -> true
+  T@U!val!111 T@U!val!90 -> true
+  T@U!val!112 T@U!val!82 -> true
+  T@U!val!112 T@U!val!84 -> true
+  T@U!val!115 T@U!val!85 -> true
+  T@U!val!115 T@U!val!90 -> true
+  T@U!val!117 T@U!val!85 -> true
+  T@U!val!117 T@U!val!90 -> true
+  T@U!val!119 T@U!val!85 -> true
+  T@U!val!119 T@U!val!90 -> true
+  T@U!val!120 T@U!val!82 -> true
+  T@U!val!120 T@U!val!84 -> true
+  T@U!val!81 T@U!val!80 -> true
+  else -> true
+}
+$IsAlloc -> {
+  4096 T@U!val!77 T@U!val!105 -> true
+  4096 T@U!val!77 T@U!val!108 -> true
+  T@U!val!106 T@U!val!87 T@U!val!105 -> true
+  T@U!val!106 T@U!val!87 T@U!val!108 -> true
+  T@U!val!106 T@U!val!91 T@U!val!105 -> true
+  T@U!val!106 T@U!val!91 T@U!val!108 -> true
+  T@U!val!107 T@U!val!96 T@U!val!105 -> true
+  T@U!val!107 T@U!val!96 T@U!val!108 -> true
+  T@U!val!107 T@U!val!98 T@U!val!105 -> true
+  T@U!val!107 T@U!val!98 T@U!val!108 -> true
+  T@U!val!109 T@U!val!122 T@U!val!105 -> true
+  T@U!val!109 T@U!val!122 T@U!val!108 -> true
+  T@U!val!111 T@U!val!85 T@U!val!105 -> true
+  T@U!val!111 T@U!val!85 T@U!val!108 -> true
+  T@U!val!111 T@U!val!90 T@U!val!105 -> true
+  T@U!val!111 T@U!val!90 T@U!val!108 -> true
+  T@U!val!112 T@U!val!82 T@U!val!105 -> true
+  T@U!val!112 T@U!val!82 T@U!val!108 -> true
+  T@U!val!112 T@U!val!84 T@U!val!105 -> true
+  T@U!val!112 T@U!val!84 T@U!val!108 -> true
+  T@U!val!115 T@U!val!85 T@U!val!105 -> true
+  T@U!val!115 T@U!val!85 T@U!val!108 -> true
+  T@U!val!115 T@U!val!90 T@U!val!105 -> true
+  T@U!val!115 T@U!val!90 T@U!val!108 -> true
+  T@U!val!117 T@U!val!85 T@U!val!105 -> true
+  T@U!val!117 T@U!val!85 T@U!val!108 -> true
+  T@U!val!117 T@U!val!90 T@U!val!105 -> true
+  T@U!val!117 T@U!val!90 T@U!val!108 -> true
+  T@U!val!119 T@U!val!85 T@U!val!105 -> true
+  T@U!val!119 T@U!val!85 T@U!val!108 -> true
+  T@U!val!119 T@U!val!90 T@U!val!105 -> true
+  T@U!val!119 T@U!val!90 T@U!val!108 -> true
+  T@U!val!120 T@U!val!82 T@U!val!105 -> true
+  T@U!val!120 T@U!val!82 T@U!val!108 -> true
+  T@U!val!120 T@U!val!84 T@U!val!105 -> true
+  T@U!val!120 T@U!val!84 T@U!val!108 -> true
+  else -> true
+}
+$IsAllocBox -> {
+  T@U!val!110 T@U!val!90 T@U!val!105 -> true
+  T@U!val!110 T@U!val!90 T@U!val!108 -> true
+  T@U!val!114 T@U!val!90 T@U!val!105 -> true
+  T@U!val!114 T@U!val!90 T@U!val!108 -> true
+  T@U!val!116 T@U!val!90 T@U!val!105 -> true
+  T@U!val!116 T@U!val!90 T@U!val!108 -> true
+  T@U!val!118 T@U!val!90 T@U!val!105 -> true
+  T@U!val!118 T@U!val!90 T@U!val!108 -> true
+  else -> true
+}
+$IsBox -> {
+  T@U!val!110 T@U!val!90 -> true
+  T@U!val!114 T@U!val!90 -> true
+  T@U!val!116 T@U!val!90 -> true
+  T@U!val!118 T@U!val!90 -> true
+  else -> true
+}
+$IsGhostField -> {
+  T@U!val!23 -> false
+  T@U!val!83 -> false
+  T@U!val!86 -> false
+  T@U!val!88 -> false
+  T@U!val!89 -> false
+  T@U!val!92 -> false
+  T@U!val!94 -> false
+  T@U!val!95 -> false
+  T@U!val!99 -> false
+  else -> false
+}
+$IsGoodHeap -> {
+  T@U!val!105 -> true
+  T@U!val!108 -> true
+  T@U!val!76 -> true
+  else -> true
+}
+$IsHeapAnchor -> {
+  T@U!val!105 -> true
+  else -> true
+}
+$mv_state -> {
+  15 0 -> true
+  15 1 -> true
+  15 2 -> true
+  15 3 -> true
+  15 4 -> true
+  else -> true
+}
+$Unbox -> {
+  T@T!val!12 T@U!val!110 -> T@U!val!111
+  T@T!val!12 T@U!val!114 -> T@U!val!115
+  T@T!val!12 T@U!val!116 -> T@U!val!117
+  T@T!val!12 T@U!val!118 -> T@U!val!119
+  else -> T@U!val!111
+}
+[3] -> {
+  T@U!val!105 T@U!val!106 T@U!val!23 -> true
+  T@U!val!105 T@U!val!106 T@U!val!92 -> T@U!val!109
+  T@U!val!105 T@U!val!107 T@U!val!23 -> true
+  T@U!val!105 T@U!val!107 T@U!val!99 -> T@U!val!112
+  T@U!val!105 T@U!val!111 T@U!val!23 -> true
+  T@U!val!105 T@U!val!111 T@U!val!88 -> T@U!val!112
+  T@U!val!105 T@U!val!112 T@U!val!23 -> true
+  T@U!val!105 T@U!val!115 T@U!val!23 -> true
+  T@U!val!105 T@U!val!115 T@U!val!89 -> T@U!val!112
+  T@U!val!105 T@U!val!117 T@U!val!23 -> true
+  T@U!val!105 T@U!val!117 T@U!val!89 -> T@U!val!112
+  T@U!val!105 T@U!val!119 T@U!val!23 -> true
+  T@U!val!105 T@U!val!119 T@U!val!88 -> T@U!val!112
+  T@U!val!105 T@U!val!119 T@U!val!89 -> T@U!val!120
+  T@U!val!105 T@U!val!120 T@U!val!23 -> true
+  T@U!val!105 T@U!val!120 T@U!val!83 -> 4096
+  T@U!val!108 T@U!val!106 T@U!val!23 -> true
+  T@U!val!108 T@U!val!107 T@U!val!23 -> true
+  T@U!val!108 T@U!val!111 T@U!val!23 -> true
+  T@U!val!108 T@U!val!112 T@U!val!23 -> true
+  T@U!val!108 T@U!val!112 T@U!val!83 -> 4096
+  T@U!val!108 T@U!val!115 T@U!val!23 -> true
+  T@U!val!108 T@U!val!117 T@U!val!23 -> true
+  T@U!val!108 T@U!val!119 T@U!val!23 -> true
+  T@U!val!108 T@U!val!120 T@U!val!23 -> true
+  T@U!val!113 T@U!val!112 T@U!val!83 -> true
+  else -> true
+}
+[4:=] -> {
+  T@U!val!105 T@U!val!112 T@U!val!83 4096 -> T@U!val!108
+  else -> T@U!val!108
+}
+bool_2_U -> {
+  true -> true
+  else -> true
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!10 -> 10
+  T@T!val!11 -> 11
+  T@T!val!12 -> 17
+  T@T!val!13 -> 18
+  T@T!val!14 -> 19
+  T@T!val!15 -> 16
+  T@T!val!16 -> 20
+  T@T!val!17 -> 7
+  T@T!val!18 -> 13
+  T@T!val!19 -> 7
+  T@T!val!2 -> 2
+  T@T!val!20 -> 7
+  T@T!val!21 -> 22
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 5
+  T@T!val!6 -> 6
+  T@T!val!7 -> 7
+  T@T!val!8 -> 8
+  T@T!val!9 -> 9
+  else -> 7
+}
+DatatypeCtorId -> {
+  T@U!val!81 -> T@U!val!42
+  else -> T@U!val!42
+}
+DeclName -> {
+  T@U!val!23 -> T@U!val!24
+  T@U!val!83 -> T@U!val!67
+  T@U!val!86 -> T@U!val!68
+  T@U!val!88 -> T@U!val!69
+  T@U!val!89 -> T@U!val!70
+  T@U!val!92 -> T@U!val!71
+  T@U!val!94 -> T@U!val!72
+  T@U!val!95 -> T@U!val!73
+  T@U!val!99 -> T@U!val!74
+  else -> T@U!val!24
+}
+DeclType -> {
+  T@U!val!83 -> T@U!val!44
+  T@U!val!86 -> T@U!val!47
+  T@U!val!88 -> T@U!val!47
+  T@U!val!89 -> T@U!val!47
+  T@U!val!92 -> T@U!val!51
+  T@U!val!94 -> T@U!val!53
+  T@U!val!95 -> T@U!val!53
+  T@U!val!99 -> T@U!val!58
+  else -> T@U!val!47
+}
+distinct-aux-f!!77 -> {
+  T@U!val!0 -> distinct-elems!76!val!0
+  T@U!val!1 -> distinct-elems!76!val!1
+  T@U!val!10 -> distinct-elems!76!val!10
+  T@U!val!11 -> distinct-elems!76!val!11
+  T@U!val!12 -> distinct-elems!76!val!12
+  T@U!val!13 -> distinct-elems!76!val!13
+  T@U!val!14 -> distinct-elems!76!val!14
+  T@U!val!15 -> distinct-elems!76!val!15
+  T@U!val!16 -> distinct-elems!76!val!16
+  T@U!val!17 -> distinct-elems!76!val!17
+  T@U!val!18 -> distinct-elems!76!val!18
+  T@U!val!19 -> distinct-elems!76!val!19
+  T@U!val!2 -> distinct-elems!76!val!2
+  T@U!val!20 -> distinct-elems!76!val!20
+  T@U!val!21 -> distinct-elems!76!val!21
+  T@U!val!22 -> distinct-elems!76!val!22
+  T@U!val!23 -> distinct-elems!76!val!23
+  T@U!val!24 -> distinct-elems!76!val!24
+  T@U!val!25 -> distinct-elems!76!val!25
+  T@U!val!26 -> distinct-elems!76!val!26
+  T@U!val!27 -> distinct-elems!76!val!27
+  T@U!val!28 -> distinct-elems!76!val!28
+  T@U!val!29 -> distinct-elems!76!val!29
+  T@U!val!3 -> distinct-elems!76!val!3
+  T@U!val!30 -> distinct-elems!76!val!30
+  T@U!val!31 -> distinct-elems!76!val!31
+  T@U!val!32 -> distinct-elems!76!val!32
+  T@U!val!33 -> distinct-elems!76!val!33
+  T@U!val!34 -> distinct-elems!76!val!34
+  T@U!val!35 -> distinct-elems!76!val!35
+  T@U!val!36 -> distinct-elems!76!val!36
+  T@U!val!37 -> distinct-elems!76!val!37
+  T@U!val!38 -> distinct-elems!76!val!38
+  T@U!val!39 -> distinct-elems!76!val!39
+  T@U!val!4 -> distinct-elems!76!val!4
+  T@U!val!40 -> distinct-elems!76!val!40
+  T@U!val!41 -> distinct-elems!76!val!41
+  T@U!val!42 -> distinct-elems!76!val!42
+  T@U!val!43 -> distinct-elems!76!val!43
+  T@U!val!44 -> distinct-elems!76!val!44
+  T@U!val!45 -> distinct-elems!76!val!45
+  T@U!val!46 -> distinct-elems!76!val!46
+  T@U!val!47 -> distinct-elems!76!val!47
+  T@U!val!48 -> distinct-elems!76!val!48
+  T@U!val!49 -> distinct-elems!76!val!49
+  T@U!val!5 -> distinct-elems!76!val!5
+  T@U!val!50 -> distinct-elems!76!val!50
+  T@U!val!51 -> distinct-elems!76!val!51
+  T@U!val!52 -> distinct-elems!76!val!52
+  T@U!val!53 -> distinct-elems!76!val!53
+  T@U!val!54 -> distinct-elems!76!val!54
+  T@U!val!55 -> distinct-elems!76!val!55
+  T@U!val!56 -> distinct-elems!76!val!56
+  T@U!val!57 -> distinct-elems!76!val!57
+  T@U!val!58 -> distinct-elems!76!val!58
+  T@U!val!59 -> distinct-elems!76!val!59
+  T@U!val!6 -> distinct-elems!76!val!6
+  T@U!val!60 -> distinct-elems!76!val!60
+  T@U!val!61 -> distinct-elems!76!val!61
+  T@U!val!62 -> distinct-elems!76!val!62
+  T@U!val!63 -> distinct-elems!76!val!63
+  T@U!val!64 -> distinct-elems!76!val!64
+  T@U!val!65 -> distinct-elems!76!val!65
+  T@U!val!66 -> distinct-elems!76!val!66
+  T@U!val!67 -> distinct-elems!76!val!67
+  T@U!val!68 -> distinct-elems!76!val!68
+  T@U!val!69 -> distinct-elems!76!val!69
+  T@U!val!7 -> distinct-elems!76!val!7
+  T@U!val!70 -> distinct-elems!76!val!70
+  T@U!val!71 -> distinct-elems!76!val!71
+  T@U!val!72 -> distinct-elems!76!val!72
+  T@U!val!73 -> distinct-elems!76!val!73
+  T@U!val!74 -> distinct-elems!76!val!74
+  T@U!val!8 -> distinct-elems!76!val!8
+  T@U!val!9 -> distinct-elems!76!val!9
+  else -> distinct-elems!76!val!0
+}
+dtype -> {
+  T@U!val!106 -> T@U!val!91
+  T@U!val!107 -> T@U!val!96
+  T@U!val!111 -> T@U!val!85
+  T@U!val!112 -> T@U!val!82
+  T@U!val!115 -> T@U!val!85
+  T@U!val!117 -> T@U!val!85
+  T@U!val!119 -> T@U!val!85
+  T@U!val!120 -> T@U!val!82
+  else -> T@U!val!85
+}
+FDim -> {
+  T@U!val!23 -> 0
+  T@U!val!83 -> 0
+  T@U!val!86 -> 0
+  T@U!val!88 -> 0
+  T@U!val!89 -> 0
+  T@U!val!92 -> 0
+  T@U!val!94 -> 0
+  T@U!val!95 -> 0
+  T@U!val!99 -> 0
+  else -> 0
+}
+FieldOfDecl -> {
+  T@T!val!0 T@U!val!44 T@U!val!67 -> T@U!val!83
+  T@T!val!12 T@U!val!47 T@U!val!69 -> T@U!val!88
+  T@T!val!12 T@U!val!47 T@U!val!70 -> T@U!val!89
+  T@T!val!12 T@U!val!53 T@U!val!73 -> T@U!val!95
+  T@T!val!12 T@U!val!58 T@U!val!74 -> T@U!val!99
+  T@T!val!18 T@U!val!47 T@U!val!68 -> T@U!val!86
+  T@T!val!18 T@U!val!51 T@U!val!71 -> T@U!val!92
+  T@T!val!18 T@U!val!53 T@U!val!72 -> T@U!val!94
+  else -> T@U!val!83
+}
+FieldType -> {
+  T@T!val!0 -> T@T!val!17
+  T@T!val!12 -> T@T!val!20
+  T@T!val!18 -> T@T!val!19
+  T@T!val!2 -> T@T!val!7
+  else -> T@T!val!7
+}
+FieldTypeInv0 -> {
+  T@T!val!17 -> T@T!val!0
+  T@T!val!19 -> T@T!val!18
+  T@T!val!20 -> T@T!val!12
+  T@T!val!7 -> T@T!val!2
+  else -> T@T!val!2
+}
+int_2_U -> {
+  4096 -> 4096
+  else -> 4096
+}
+Inv0_TSeq -> {
+  T@U!val!122 -> T@U!val!90
+  else -> T@U!val!90
+}
+lambda#5 -> {
+  T@U!val!99 T@U!val!78 T@U!val!105 T@U!val!23 T@U!val!107 -> T@U!val!113
+  else -> T@U!val!113
+}
+Lit -> {
+  T@U!val!81 -> T@U!val!81
+  else -> T@U!val!81
+}
+LitInt -> {
+  0 -> 0
+  else -> 0
+}
+MapType1Type -> {
+  T@T!val!12 -> T@T!val!15
+  else -> T@T!val!15
+}
+MapType1TypeInv0 -> {
+  T@T!val!15 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType3Type -> {
+  T@T!val!12 T@T!val!2 -> T@T!val!21
+  else -> T@T!val!21
+}
+MapType3TypeInv0 -> {
+  T@T!val!21 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType3TypeInv1 -> {
+  T@T!val!21 -> T@T!val!2
+  else -> T@T!val!2
+}
+Seq#Index -> {
+  T@U!val!109 250 -> T@U!val!110
+  T@U!val!109 310 -> T@U!val!116
+  T@U!val!109 676 -> T@U!val!114
+  T@U!val!109 905 -> T@U!val!118
+  else -> T@U!val!110
+}
+Seq#Length -> {
+  T@U!val!109 -> 906
+  else -> 906
+}
+SeqType -> {
+  T@T!val!10 -> T@T!val!18
+  else -> T@T!val!18
+}
+SeqTypeInv0 -> {
+  T@T!val!18 -> T@T!val!10
+  else -> T@T!val!10
+}
+Tag -> {
+  T@U!val!0 -> T@U!val!5
+  T@U!val!1 -> T@U!val!6
+  T@U!val!100 -> T@U!val!60
+  T@U!val!101 -> T@U!val!61
+  T@U!val!102 -> T@U!val!63
+  T@U!val!103 -> T@U!val!64
+  T@U!val!104 -> T@U!val!66
+  T@U!val!122 -> T@U!val!13
+  T@U!val!2 -> T@U!val!7
+  T@U!val!3 -> T@U!val!8
+  T@U!val!4 -> T@U!val!9
+  T@U!val!75 -> T@U!val!27
+  T@U!val!77 -> T@U!val!25
+  T@U!val!79 -> T@U!val!28
+  T@U!val!80 -> T@U!val!43
+  T@U!val!82 -> T@U!val!45
+  T@U!val!84 -> T@U!val!46
+  T@U!val!85 -> T@U!val!48
+  T@U!val!87 -> T@U!val!49
+  T@U!val!90 -> T@U!val!50
+  T@U!val!91 -> T@U!val!52
+  T@U!val!93 -> T@U!val!54
+  T@U!val!96 -> T@U!val!55
+  T@U!val!97 -> T@U!val!56
+  T@U!val!98 -> T@U!val!57
+  else -> T@U!val!5
+}
+tickleBool -> {
+  false -> true
+  true -> true
+  else -> true
+}
+TSeq -> {
+  T@U!val!90 -> T@U!val!122
+  else -> T@U!val!122
+}
+type -> {
+  4096 -> T@T!val!0
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!4
+  T@U!val!10 -> T@T!val!5
+  T@U!val!100 -> T@T!val!4
+  T@U!val!101 -> T@T!val!4
+  T@U!val!102 -> T@T!val!4
+  T@U!val!103 -> T@T!val!4
+  T@U!val!104 -> T@T!val!4
+  T@U!val!105 -> T@T!val!15
+  T@U!val!106 -> T@T!val!12
+  T@U!val!107 -> T@T!val!12
+  T@U!val!108 -> T@T!val!15
+  T@U!val!109 -> T@T!val!18
+  T@U!val!11 -> T@T!val!5
+  T@U!val!110 -> T@T!val!10
+  T@U!val!111 -> T@T!val!12
+  T@U!val!112 -> T@T!val!12
+  T@U!val!113 -> T@T!val!21
+  T@U!val!114 -> T@T!val!10
+  T@U!val!115 -> T@T!val!12
+  T@U!val!116 -> T@T!val!10
+  T@U!val!117 -> T@T!val!12
+  T@U!val!118 -> T@T!val!10
+  T@U!val!119 -> T@T!val!12
+  T@U!val!12 -> T@T!val!5
+  T@U!val!120 -> T@T!val!12
+  T@U!val!122 -> T@T!val!4
+  T@U!val!13 -> T@T!val!5
+  T@U!val!14 -> T@T!val!5
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!5
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!6
+  T@U!val!19 -> T@T!val!6
+  T@U!val!2 -> T@T!val!4
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!6
+  T@U!val!22 -> T@T!val!6
+  T@U!val!23 -> T@T!val!7
+  T@U!val!24 -> T@T!val!8
+  T@U!val!25 -> T@T!val!5
+  T@U!val!26 -> T@T!val!6
+  T@U!val!27 -> T@T!val!5
+  T@U!val!28 -> T@T!val!5
+  T@U!val!29 -> T@T!val!6
+  T@U!val!3 -> T@T!val!4
+  T@U!val!30 -> T@T!val!5
+  T@U!val!31 -> T@T!val!5
+  T@U!val!32 -> T@T!val!5
+  T@U!val!33 -> T@T!val!5
+  T@U!val!34 -> T@T!val!5
+  T@U!val!35 -> T@T!val!6
+  T@U!val!36 -> T@T!val!9
+  T@U!val!37 -> T@T!val!5
+  T@U!val!38 -> T@T!val!5
+  T@U!val!39 -> T@T!val!5
+  T@U!val!4 -> T@T!val!4
+  T@U!val!40 -> T@T!val!5
+  T@U!val!41 -> T@T!val!6
+  T@U!val!42 -> T@T!val!9
+  T@U!val!43 -> T@T!val!5
+  T@U!val!44 -> T@T!val!6
+  T@U!val!45 -> T@T!val!5
+  T@U!val!46 -> T@T!val!5
+  T@U!val!47 -> T@T!val!6
+  T@U!val!48 -> T@T!val!5
+  T@U!val!49 -> T@T!val!5
+  T@U!val!5 -> T@T!val!5
+  T@U!val!50 -> T@T!val!5
+  T@U!val!51 -> T@T!val!6
+  T@U!val!52 -> T@T!val!5
+  T@U!val!53 -> T@T!val!6
+  T@U!val!54 -> T@T!val!5
+  T@U!val!55 -> T@T!val!5
+  T@U!val!56 -> T@T!val!5
+  T@U!val!57 -> T@T!val!5
+  T@U!val!58 -> T@T!val!6
+  T@U!val!59 -> T@T!val!6
+  T@U!val!6 -> T@T!val!5
+  T@U!val!60 -> T@T!val!5
+  T@U!val!61 -> T@T!val!5
+  T@U!val!62 -> T@T!val!6
+  T@U!val!63 -> T@T!val!5
+  T@U!val!64 -> T@T!val!5
+  T@U!val!65 -> T@T!val!6
+  T@U!val!66 -> T@T!val!5
+  T@U!val!67 -> T@T!val!8
+  T@U!val!68 -> T@T!val!8
+  T@U!val!69 -> T@T!val!8
+  T@U!val!7 -> T@T!val!5
+  T@U!val!70 -> T@T!val!8
+  T@U!val!71 -> T@T!val!8
+  T@U!val!72 -> T@T!val!8
+  T@U!val!73 -> T@T!val!8
+  T@U!val!74 -> T@T!val!8
+  T@U!val!75 -> T@T!val!4
+  T@U!val!76 -> T@T!val!15
+  T@U!val!77 -> T@T!val!4
+  T@U!val!78 -> T@T!val!12
+  T@U!val!79 -> T@T!val!4
+  T@U!val!8 -> T@T!val!5
+  T@U!val!80 -> T@T!val!4
+  T@U!val!81 -> T@T!val!13
+  T@U!val!82 -> T@T!val!4
+  T@U!val!83 -> T@T!val!17
+  T@U!val!84 -> T@T!val!4
+  T@U!val!85 -> T@T!val!4
+  T@U!val!86 -> T@T!val!19
+  T@U!val!87 -> T@T!val!4
+  T@U!val!88 -> T@T!val!20
+  T@U!val!89 -> T@T!val!20
+  T@U!val!9 -> T@T!val!5
+  T@U!val!90 -> T@T!val!4
+  T@U!val!91 -> T@T!val!4
+  T@U!val!92 -> T@T!val!19
+  T@U!val!93 -> T@T!val!4
+  T@U!val!94 -> T@T!val!19
+  T@U!val!95 -> T@T!val!20
+  T@U!val!96 -> T@T!val!4
+  T@U!val!97 -> T@T!val!4
+  T@U!val!98 -> T@T!val!4
+  T@U!val!99 -> T@T!val!20
+  true -> T@T!val!2
+  else -> T@T!val!5
+}
+U_2_bool -> {
+  true -> true
+  else -> true
+}
+U_2_int -> {
+  4096 -> 4096
+  else -> 4096
+}
+*** STATE <initial>
+  $_Frame -> **$_Frame
+  $_reverifyPost -> **$_reverifyPost
+  $decr$loop#00 -> **$decr$loop#00
+  $decr_init$loop#00 -> **$decr_init$loop#00
+  $Heap -> T@U!val!105
+  $Heap_at_0 -> **$Heap_at_0
+  $PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+  $rhs#0_0_0 -> 0
+  $Tick -> **$Tick
+  $w$loop#0 -> **$w$loop#0
+  count#0 -> **count#0
+  g#0 -> T@U!val!106
+  i#4 -> **i#4
+  i#5 -> **i#5
+  this -> T@U!val!107
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(65,4): initial state
+  $_Frame -> T@U!val!113
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(66,18)
+  $_reverifyPost -> false
+  i#4 -> 0
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(67,30)
+  count#0 -> 906
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(69,8): after some loop iterations
+  $decr$loop#00 -> **$decr$loop#00@0
+  $decr_init$loop#00 -> 906
+  $Heap_at_0 -> T@U!val!105
+  $PreLoopHeap$loop#0 -> T@U!val!105
+  $w$loop#0 -> true
+  i#4 -> 905
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(74,49)
+  $decr$loop#00 -> 1
+  $Heap -> T@U!val!108
+  $rhs#0_0_0 -> 4096
+*** END_STATE
+*** END_MODEL
+*** MODEL
+##_System._tuple#0._#Make0 -> T@U!val!42
+##_System._tuple#2._#Make2 -> T@U!val!36
+#_System._tuple#0._#Make0 -> T@U!val!81
+$$Language$Dafny -> true
+$_Frame -> **$_Frame
+$_Frame@0 -> T@U!val!116
+$_reverifyPost -> **$_reverifyPost
+$decr$loop#00 -> **$decr$loop#00
+$decr_init$loop#00 -> **$decr_init$loop#00
+$decr_init$loop#00@0 -> 906
+$FunctionContextHeight -> 11
+$Heap@@5 -> T@U!val!105
+$Heap@0 -> T@U!val!110
+$Heap@1 -> T@U!val!109
+$Heap@2 -> T@U!val!108
+$Heap_at_0 -> **$Heap_at_0
+$mv_state_const -> 15
+$OneHeap -> T@U!val!76
+$PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+$rhs#0_0_0 -> 0
+$Tick -> **$Tick
+$w$loop#0 -> **$w$loop#0
+$w$loop#0@0 -> true
+%lbl%@36 -> false
+%lbl%+34 -> true
+%lbl%+37 -> true
+_module.Card.fst -> T@U!val!88
+_module.Card.guests -> T@U!val!86
+_module.Card.snd -> T@U!val!89
+_module.Desk.issued -> T@U!val!94
+_module.Desk.prv -> T@U!val!95
+_module.Guest.cards -> T@U!val!92
+_module.Key.value -> T@U!val!83
+_module.Room.key -> T@U!val!99
+alloc -> T@U!val!23
+allocName -> T@U!val!24
+boolType -> T@T!val!2
+BoxType -> T@T!val!10
+charType -> T@T!val!11
+class._module.__default -> T@U!val!65
+class._module.Card? -> T@U!val!47
+class._module.Desk? -> T@U!val!53
+class._module.Guest? -> T@U!val!51
+class._module.Key? -> T@U!val!44
+class._module.Payment? -> T@U!val!59
+class._module.Room? -> T@U!val!58
+class._module.RoomService? -> T@U!val!62
+class._System.array? -> T@U!val!29
+class._System.bool -> T@U!val!19
+class._System.int -> T@U!val!18
+class._System.multiset -> T@U!val!22
+class._System.object? -> T@U!val!26
+class._System.seq -> T@U!val!21
+class._System.set -> T@U!val!20
+class._System.Tuple0 -> T@U!val!41
+class._System.Tuple2 -> T@U!val!35
+ClassNameType -> T@T!val!6
+count#0 -> **count#0
+count#0@0 -> 906
+DatatypeTypeType -> T@T!val!13
+DtCtorIdType -> T@T!val!9
+field$cards -> T@U!val!71
+field$fst -> T@U!val!69
+field$guests -> T@U!val!68
+field$issued -> T@U!val!72
+field$key -> T@U!val!74
+field$prv -> T@U!val!73
+field$snd -> T@U!val!70
+field$value -> T@U!val!67
+g#0 -> T@U!val!106
+HandleTypeType -> T@T!val!16
+i#2!836!153 -> 832
+i#4 -> **i#4
+i#4@0 -> 0
+i#5 -> **i#5
+intType -> T@T!val!0
+LayerTypeType -> T@T!val!14
+NameFamilyType -> T@T!val!8
+NoTraitAtAll -> T@U!val!17
+null -> T@U!val!78
+realType -> T@T!val!1
+refType -> T@T!val!12
+rmodeType -> T@T!val!3
+TagBool -> T@U!val!5
+TagChar -> T@U!val!6
+TagClass -> T@U!val!16
+Tagclass._module.__default -> T@U!val!66
+Tagclass._module.Card -> T@U!val!50
+Tagclass._module.Card? -> T@U!val!48
+Tagclass._module.Desk -> T@U!val!56
+Tagclass._module.Desk? -> T@U!val!54
+Tagclass._module.Guest -> T@U!val!49
+Tagclass._module.Guest? -> T@U!val!52
+Tagclass._module.Key -> T@U!val!46
+Tagclass._module.Key? -> T@U!val!45
+Tagclass._module.Payment -> T@U!val!61
+Tagclass._module.Payment? -> T@U!val!60
+Tagclass._module.Room -> T@U!val!57
+Tagclass._module.Room? -> T@U!val!55
+Tagclass._module.RoomService -> T@U!val!64
+Tagclass._module.RoomService? -> T@U!val!63
+Tagclass._System.___hFunc0 -> T@U!val!32
+Tagclass._System.___hFunc1 -> T@U!val!38
+Tagclass._System.___hPartialFunc0 -> T@U!val!33
+Tagclass._System.___hPartialFunc1 -> T@U!val!39
+Tagclass._System.___hTotalFunc0 -> T@U!val!34
+Tagclass._System.___hTotalFunc1 -> T@U!val!40
+Tagclass._System.array -> T@U!val!31
+Tagclass._System.array? -> T@U!val!30
+Tagclass._System.nat -> T@U!val!25
+Tagclass._System.object -> T@U!val!28
+Tagclass._System.object? -> T@U!val!27
+Tagclass._System.Tuple0 -> T@U!val!43
+Tagclass._System.Tuple2 -> T@U!val!37
+TagIMap -> T@U!val!15
+TagInt -> T@U!val!7
+TagISet -> T@U!val!11
+TagMap -> T@U!val!14
+TagMultiSet -> T@U!val!12
+TagORDINAL -> T@U!val!9
+TagReal -> T@U!val!8
+TagSeq -> T@U!val!13
+TagSet -> T@U!val!10
+TBool -> T@U!val!0
+TChar -> T@U!val!1
+Tclass._module.__default -> T@U!val!104
+Tclass._module.Card -> T@U!val!90
+Tclass._module.Card? -> T@U!val!85
+Tclass._module.Desk -> T@U!val!97
+Tclass._module.Desk? -> T@U!val!93
+Tclass._module.Guest -> T@U!val!87
+Tclass._module.Guest? -> T@U!val!91
+Tclass._module.Key -> T@U!val!84
+Tclass._module.Key? -> T@U!val!82
+Tclass._module.Payment -> T@U!val!101
+Tclass._module.Payment? -> T@U!val!100
+Tclass._module.Room -> T@U!val!98
+Tclass._module.Room? -> T@U!val!96
+Tclass._module.RoomService -> T@U!val!103
+Tclass._module.RoomService? -> T@U!val!102
+Tclass._System.nat -> T@U!val!77
+Tclass._System.object -> T@U!val!79
+Tclass._System.object? -> T@U!val!75
+Tclass._System.Tuple0 -> T@U!val!80
+this@@1 -> T@U!val!107
+TInt -> T@U!val!2
+TORDINAL -> T@U!val!4
+TReal -> T@U!val!3
+TyTagType -> T@T!val!5
+TyType -> T@T!val!4
+unique-value!100 -> distinct-elems!76!val!22
+unique-value!101 -> distinct-elems!76!val!23
+unique-value!102 -> distinct-elems!76!val!24
+unique-value!103 -> distinct-elems!76!val!25
+unique-value!104 -> distinct-elems!76!val!26
+unique-value!105 -> distinct-elems!76!val!27
+unique-value!106 -> distinct-elems!76!val!28
+unique-value!107 -> distinct-elems!76!val!29
+unique-value!108 -> distinct-elems!76!val!30
+unique-value!109 -> distinct-elems!76!val!31
+unique-value!110 -> distinct-elems!76!val!32
+unique-value!111 -> distinct-elems!76!val!33
+unique-value!112 -> distinct-elems!76!val!34
+unique-value!113 -> distinct-elems!76!val!35
+unique-value!114 -> distinct-elems!76!val!36
+unique-value!115 -> distinct-elems!76!val!37
+unique-value!116 -> distinct-elems!76!val!38
+unique-value!117 -> distinct-elems!76!val!39
+unique-value!118 -> distinct-elems!76!val!40
+unique-value!119 -> distinct-elems!76!val!41
+unique-value!120 -> distinct-elems!76!val!42
+unique-value!121 -> distinct-elems!76!val!43
+unique-value!122 -> distinct-elems!76!val!44
+unique-value!123 -> distinct-elems!76!val!45
+unique-value!124 -> distinct-elems!76!val!46
+unique-value!125 -> distinct-elems!76!val!47
+unique-value!126 -> distinct-elems!76!val!48
+unique-value!127 -> distinct-elems!76!val!49
+unique-value!128 -> distinct-elems!76!val!50
+unique-value!129 -> distinct-elems!76!val!51
+unique-value!130 -> distinct-elems!76!val!52
+unique-value!131 -> distinct-elems!76!val!53
+unique-value!132 -> distinct-elems!76!val!54
+unique-value!133 -> distinct-elems!76!val!55
+unique-value!134 -> distinct-elems!76!val!56
+unique-value!135 -> distinct-elems!76!val!57
+unique-value!136 -> distinct-elems!76!val!58
+unique-value!137 -> distinct-elems!76!val!59
+unique-value!138 -> distinct-elems!76!val!60
+unique-value!139 -> distinct-elems!76!val!61
+unique-value!140 -> distinct-elems!76!val!62
+unique-value!141 -> distinct-elems!76!val!63
+unique-value!142 -> distinct-elems!76!val!64
+unique-value!143 -> distinct-elems!76!val!65
+unique-value!144 -> distinct-elems!76!val!66
+unique-value!145 -> distinct-elems!76!val!67
+unique-value!146 -> distinct-elems!76!val!68
+unique-value!147 -> distinct-elems!76!val!69
+unique-value!148 -> distinct-elems!76!val!70
+unique-value!149 -> distinct-elems!76!val!71
+unique-value!150 -> distinct-elems!76!val!72
+unique-value!151 -> distinct-elems!76!val!73
+unique-value!152 -> distinct-elems!76!val!74
+unique-value!78 -> distinct-elems!76!val!0
+unique-value!79 -> distinct-elems!76!val!1
+unique-value!80 -> distinct-elems!76!val!2
+unique-value!81 -> distinct-elems!76!val!3
+unique-value!82 -> distinct-elems!76!val!4
+unique-value!83 -> distinct-elems!76!val!5
+unique-value!84 -> distinct-elems!76!val!6
+unique-value!85 -> distinct-elems!76!val!7
+unique-value!86 -> distinct-elems!76!val!8
+unique-value!87 -> distinct-elems!76!val!9
+unique-value!88 -> distinct-elems!76!val!10
+unique-value!89 -> distinct-elems!76!val!11
+unique-value!90 -> distinct-elems!76!val!12
+unique-value!91 -> distinct-elems!76!val!13
+unique-value!92 -> distinct-elems!76!val!14
+unique-value!93 -> distinct-elems!76!val!15
+unique-value!94 -> distinct-elems!76!val!16
+unique-value!95 -> distinct-elems!76!val!17
+unique-value!96 -> distinct-elems!76!val!18
+unique-value!97 -> distinct-elems!76!val!19
+unique-value!98 -> distinct-elems!76!val!20
+unique-value!99 -> distinct-elems!76!val!21
+$Box -> {
+  T@U!val!113 -> T@U!val!112
+  else -> T@U!val!112
+}
+$Is -> {
+  T@U!val!106 T@U!val!87 -> true
+  T@U!val!106 T@U!val!91 -> true
+  T@U!val!107 T@U!val!96 -> true
+  T@U!val!107 T@U!val!98 -> true
+  T@U!val!111 T@U!val!117 -> true
+  T@U!val!113 T@U!val!85 -> true
+  T@U!val!113 T@U!val!90 -> true
+  T@U!val!114 T@U!val!82 -> true
+  T@U!val!114 T@U!val!84 -> true
+  T@U!val!115 T@U!val!82 -> true
+  T@U!val!115 T@U!val!84 -> true
+  T@U!val!81 T@U!val!80 -> true
+  else -> true
+}
+$IsAlloc -> {
+  T@U!val!106 T@U!val!87 T@U!val!105 -> true
+  T@U!val!106 T@U!val!91 T@U!val!105 -> true
+  T@U!val!107 T@U!val!96 T@U!val!105 -> true
+  T@U!val!107 T@U!val!98 T@U!val!105 -> true
+  T@U!val!111 T@U!val!117 T@U!val!105 -> true
+  T@U!val!113 T@U!val!85 T@U!val!105 -> true
+  T@U!val!113 T@U!val!90 T@U!val!105 -> true
+  T@U!val!114 T@U!val!82 T@U!val!105 -> true
+  T@U!val!114 T@U!val!84 T@U!val!105 -> true
+  T@U!val!115 T@U!val!82 T@U!val!105 -> true
+  T@U!val!115 T@U!val!84 T@U!val!105 -> true
+  else -> true
+}
+$IsAllocBox -> {
+  T@U!val!112 T@U!val!90 T@U!val!105 -> true
+  else -> true
+}
+$IsBox -> {
+  T@U!val!112 T@U!val!90 -> true
+  else -> true
+}
+$IsGhostField -> {
+  T@U!val!23 -> false
+  T@U!val!83 -> false
+  T@U!val!86 -> false
+  T@U!val!88 -> false
+  T@U!val!89 -> false
+  T@U!val!92 -> false
+  T@U!val!94 -> false
+  T@U!val!95 -> false
+  T@U!val!99 -> false
+  else -> false
+}
+$IsGoodHeap -> {
+  T@U!val!105 -> true
+  T@U!val!76 -> true
+  else -> true
+}
+$IsHeapAnchor -> {
+  T@U!val!105 -> true
+  else -> true
+}
+$mv_state -> {
+  15 0 -> true
+  15 1 -> true
+  15 2 -> true
+  else -> true
+}
+$Unbox -> {
+  T@T!val!12 T@U!val!112 -> T@U!val!113
+  else -> T@U!val!113
+}
+[3] -> {
+  T@U!val!105 T@U!val!106 T@U!val!23 -> true
+  T@U!val!105 T@U!val!106 T@U!val!92 -> T@U!val!111
+  T@U!val!105 T@U!val!107 T@U!val!23 -> true
+  T@U!val!105 T@U!val!107 T@U!val!99 -> T@U!val!114
+  T@U!val!105 T@U!val!113 T@U!val!23 -> true
+  T@U!val!105 T@U!val!113 T@U!val!88 -> T@U!val!114
+  T@U!val!105 T@U!val!113 T@U!val!89 -> T@U!val!115
+  T@U!val!105 T@U!val!114 T@U!val!23 -> true
+  T@U!val!105 T@U!val!115 T@U!val!23 -> true
+  else -> true
+}
+bool_2_U -> {
+  true -> true
+  else -> true
+}
+Ctor -> {
+  T@T!val!0 -> 0
+  T@T!val!1 -> 1
+  T@T!val!10 -> 10
+  T@T!val!11 -> 11
+  T@T!val!12 -> 17
+  T@T!val!13 -> 18
+  T@T!val!14 -> 19
+  T@T!val!15 -> 16
+  T@T!val!16 -> 20
+  T@T!val!17 -> 7
+  T@T!val!18 -> 13
+  T@T!val!19 -> 7
+  T@T!val!2 -> 2
+  T@T!val!20 -> 7
+  T@T!val!21 -> 22
+  T@T!val!3 -> 3
+  T@T!val!4 -> 4
+  T@T!val!5 -> 5
+  T@T!val!6 -> 6
+  T@T!val!7 -> 7
+  T@T!val!8 -> 8
+  T@T!val!9 -> 9
+  else -> 7
+}
+DatatypeCtorId -> {
+  T@U!val!81 -> T@U!val!42
+  else -> T@U!val!42
+}
+DeclName -> {
+  T@U!val!23 -> T@U!val!24
+  T@U!val!83 -> T@U!val!67
+  T@U!val!86 -> T@U!val!68
+  T@U!val!88 -> T@U!val!69
+  T@U!val!89 -> T@U!val!70
+  T@U!val!92 -> T@U!val!71
+  T@U!val!94 -> T@U!val!72
+  T@U!val!95 -> T@U!val!73
+  T@U!val!99 -> T@U!val!74
+  else -> T@U!val!24
+}
+DeclType -> {
+  T@U!val!83 -> T@U!val!44
+  T@U!val!86 -> T@U!val!47
+  T@U!val!88 -> T@U!val!47
+  T@U!val!89 -> T@U!val!47
+  T@U!val!92 -> T@U!val!51
+  T@U!val!94 -> T@U!val!53
+  T@U!val!95 -> T@U!val!53
+  T@U!val!99 -> T@U!val!58
+  else -> T@U!val!47
+}
+distinct-aux-f!!77 -> {
+  T@U!val!0 -> distinct-elems!76!val!0
+  T@U!val!1 -> distinct-elems!76!val!1
+  T@U!val!10 -> distinct-elems!76!val!10
+  T@U!val!11 -> distinct-elems!76!val!11
+  T@U!val!12 -> distinct-elems!76!val!12
+  T@U!val!13 -> distinct-elems!76!val!13
+  T@U!val!14 -> distinct-elems!76!val!14
+  T@U!val!15 -> distinct-elems!76!val!15
+  T@U!val!16 -> distinct-elems!76!val!16
+  T@U!val!17 -> distinct-elems!76!val!17
+  T@U!val!18 -> distinct-elems!76!val!18
+  T@U!val!19 -> distinct-elems!76!val!19
+  T@U!val!2 -> distinct-elems!76!val!2
+  T@U!val!20 -> distinct-elems!76!val!20
+  T@U!val!21 -> distinct-elems!76!val!21
+  T@U!val!22 -> distinct-elems!76!val!22
+  T@U!val!23 -> distinct-elems!76!val!23
+  T@U!val!24 -> distinct-elems!76!val!24
+  T@U!val!25 -> distinct-elems!76!val!25
+  T@U!val!26 -> distinct-elems!76!val!26
+  T@U!val!27 -> distinct-elems!76!val!27
+  T@U!val!28 -> distinct-elems!76!val!28
+  T@U!val!29 -> distinct-elems!76!val!29
+  T@U!val!3 -> distinct-elems!76!val!3
+  T@U!val!30 -> distinct-elems!76!val!30
+  T@U!val!31 -> distinct-elems!76!val!31
+  T@U!val!32 -> distinct-elems!76!val!32
+  T@U!val!33 -> distinct-elems!76!val!33
+  T@U!val!34 -> distinct-elems!76!val!34
+  T@U!val!35 -> distinct-elems!76!val!35
+  T@U!val!36 -> distinct-elems!76!val!36
+  T@U!val!37 -> distinct-elems!76!val!37
+  T@U!val!38 -> distinct-elems!76!val!38
+  T@U!val!39 -> distinct-elems!76!val!39
+  T@U!val!4 -> distinct-elems!76!val!4
+  T@U!val!40 -> distinct-elems!76!val!40
+  T@U!val!41 -> distinct-elems!76!val!41
+  T@U!val!42 -> distinct-elems!76!val!42
+  T@U!val!43 -> distinct-elems!76!val!43
+  T@U!val!44 -> distinct-elems!76!val!44
+  T@U!val!45 -> distinct-elems!76!val!45
+  T@U!val!46 -> distinct-elems!76!val!46
+  T@U!val!47 -> distinct-elems!76!val!47
+  T@U!val!48 -> distinct-elems!76!val!48
+  T@U!val!49 -> distinct-elems!76!val!49
+  T@U!val!5 -> distinct-elems!76!val!5
+  T@U!val!50 -> distinct-elems!76!val!50
+  T@U!val!51 -> distinct-elems!76!val!51
+  T@U!val!52 -> distinct-elems!76!val!52
+  T@U!val!53 -> distinct-elems!76!val!53
+  T@U!val!54 -> distinct-elems!76!val!54
+  T@U!val!55 -> distinct-elems!76!val!55
+  T@U!val!56 -> distinct-elems!76!val!56
+  T@U!val!57 -> distinct-elems!76!val!57
+  T@U!val!58 -> distinct-elems!76!val!58
+  T@U!val!59 -> distinct-elems!76!val!59
+  T@U!val!6 -> distinct-elems!76!val!6
+  T@U!val!60 -> distinct-elems!76!val!60
+  T@U!val!61 -> distinct-elems!76!val!61
+  T@U!val!62 -> distinct-elems!76!val!62
+  T@U!val!63 -> distinct-elems!76!val!63
+  T@U!val!64 -> distinct-elems!76!val!64
+  T@U!val!65 -> distinct-elems!76!val!65
+  T@U!val!66 -> distinct-elems!76!val!66
+  T@U!val!67 -> distinct-elems!76!val!67
+  T@U!val!68 -> distinct-elems!76!val!68
+  T@U!val!69 -> distinct-elems!76!val!69
+  T@U!val!7 -> distinct-elems!76!val!7
+  T@U!val!70 -> distinct-elems!76!val!70
+  T@U!val!71 -> distinct-elems!76!val!71
+  T@U!val!72 -> distinct-elems!76!val!72
+  T@U!val!73 -> distinct-elems!76!val!73
+  T@U!val!74 -> distinct-elems!76!val!74
+  T@U!val!8 -> distinct-elems!76!val!8
+  T@U!val!9 -> distinct-elems!76!val!9
+  else -> distinct-elems!76!val!0
+}
+dtype -> {
+  T@U!val!106 -> T@U!val!91
+  T@U!val!107 -> T@U!val!96
+  T@U!val!113 -> T@U!val!85
+  T@U!val!114 -> T@U!val!82
+  T@U!val!115 -> T@U!val!82
+  else -> T@U!val!82
+}
+FDim -> {
+  T@U!val!23 -> 0
+  T@U!val!83 -> 0
+  T@U!val!86 -> 0
+  T@U!val!88 -> 0
+  T@U!val!89 -> 0
+  T@U!val!92 -> 0
+  T@U!val!94 -> 0
+  T@U!val!95 -> 0
+  T@U!val!99 -> 0
+  else -> 0
+}
+FieldOfDecl -> {
+  T@T!val!0 T@U!val!44 T@U!val!67 -> T@U!val!83
+  T@T!val!12 T@U!val!47 T@U!val!69 -> T@U!val!88
+  T@T!val!12 T@U!val!47 T@U!val!70 -> T@U!val!89
+  T@T!val!12 T@U!val!53 T@U!val!73 -> T@U!val!95
+  T@T!val!12 T@U!val!58 T@U!val!74 -> T@U!val!99
+  T@T!val!18 T@U!val!47 T@U!val!68 -> T@U!val!86
+  T@T!val!18 T@U!val!51 T@U!val!71 -> T@U!val!92
+  T@T!val!18 T@U!val!53 T@U!val!72 -> T@U!val!94
+  else -> T@U!val!83
+}
+FieldType -> {
+  T@T!val!0 -> T@T!val!17
+  T@T!val!12 -> T@T!val!20
+  T@T!val!18 -> T@T!val!19
+  T@T!val!2 -> T@T!val!7
+  else -> T@T!val!7
+}
+FieldTypeInv0 -> {
+  T@T!val!17 -> T@T!val!0
+  T@T!val!19 -> T@T!val!18
+  T@T!val!20 -> T@T!val!12
+  T@T!val!7 -> T@T!val!2
+  else -> T@T!val!2
+}
+Inv0_TSeq -> {
+  T@U!val!117 -> T@U!val!90
+  else -> T@U!val!90
+}
+lambda#5 -> {
+  T@U!val!99 T@U!val!78 T@U!val!105 T@U!val!23 T@U!val!107 -> T@U!val!116
+  else -> T@U!val!116
+}
+Lit -> {
+  T@U!val!81 -> T@U!val!81
+  else -> T@U!val!81
+}
+LitInt -> {
+  0 -> 0
+  else -> 0
+}
+MapType1Type -> {
+  T@T!val!12 -> T@T!val!15
+  else -> T@T!val!15
+}
+MapType1TypeInv0 -> {
+  T@T!val!15 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType3Type -> {
+  T@T!val!12 T@T!val!2 -> T@T!val!21
+  else -> T@T!val!21
+}
+MapType3TypeInv0 -> {
+  T@T!val!21 -> T@T!val!12
+  else -> T@T!val!12
+}
+MapType3TypeInv1 -> {
+  T@T!val!21 -> T@T!val!2
+  else -> T@T!val!2
+}
+Seq#Index -> {
+  T@U!val!111 832 -> T@U!val!112
+  else -> T@U!val!112
+}
+Seq#Length -> {
+  T@U!val!111 -> 906
+  else -> 906
+}
+SeqType -> {
+  T@T!val!10 -> T@T!val!18
+  else -> T@T!val!18
+}
+SeqTypeInv0 -> {
+  T@T!val!18 -> T@T!val!10
+  else -> T@T!val!10
+}
+Tag -> {
+  T@U!val!0 -> T@U!val!5
+  T@U!val!1 -> T@U!val!6
+  T@U!val!100 -> T@U!val!60
+  T@U!val!101 -> T@U!val!61
+  T@U!val!102 -> T@U!val!63
+  T@U!val!103 -> T@U!val!64
+  T@U!val!104 -> T@U!val!66
+  T@U!val!117 -> T@U!val!13
+  T@U!val!2 -> T@U!val!7
+  T@U!val!3 -> T@U!val!8
+  T@U!val!4 -> T@U!val!9
+  T@U!val!75 -> T@U!val!27
+  T@U!val!77 -> T@U!val!25
+  T@U!val!79 -> T@U!val!28
+  T@U!val!80 -> T@U!val!43
+  T@U!val!82 -> T@U!val!45
+  T@U!val!84 -> T@U!val!46
+  T@U!val!85 -> T@U!val!48
+  T@U!val!87 -> T@U!val!49
+  T@U!val!90 -> T@U!val!50
+  T@U!val!91 -> T@U!val!52
+  T@U!val!93 -> T@U!val!54
+  T@U!val!96 -> T@U!val!55
+  T@U!val!97 -> T@U!val!56
+  T@U!val!98 -> T@U!val!57
+  else -> T@U!val!5
+}
+tickleBool -> {
+  false -> true
+  true -> true
+  else -> true
+}
+TSeq -> {
+  T@U!val!90 -> T@U!val!117
+  else -> T@U!val!117
+}
+type -> {
+  T@U!val!0 -> T@T!val!4
+  T@U!val!1 -> T@T!val!4
+  T@U!val!10 -> T@T!val!5
+  T@U!val!100 -> T@T!val!4
+  T@U!val!101 -> T@T!val!4
+  T@U!val!102 -> T@T!val!4
+  T@U!val!103 -> T@T!val!4
+  T@U!val!104 -> T@T!val!4
+  T@U!val!105 -> T@T!val!15
+  T@U!val!106 -> T@T!val!12
+  T@U!val!107 -> T@T!val!12
+  T@U!val!108 -> T@T!val!15
+  T@U!val!109 -> T@T!val!15
+  T@U!val!11 -> T@T!val!5
+  T@U!val!110 -> T@T!val!15
+  T@U!val!111 -> T@T!val!18
+  T@U!val!112 -> T@T!val!10
+  T@U!val!113 -> T@T!val!12
+  T@U!val!114 -> T@T!val!12
+  T@U!val!115 -> T@T!val!12
+  T@U!val!116 -> T@T!val!21
+  T@U!val!117 -> T@T!val!4
+  T@U!val!12 -> T@T!val!5
+  T@U!val!13 -> T@T!val!5
+  T@U!val!14 -> T@T!val!5
+  T@U!val!15 -> T@T!val!5
+  T@U!val!16 -> T@T!val!5
+  T@U!val!17 -> T@T!val!6
+  T@U!val!18 -> T@T!val!6
+  T@U!val!19 -> T@T!val!6
+  T@U!val!2 -> T@T!val!4
+  T@U!val!20 -> T@T!val!6
+  T@U!val!21 -> T@T!val!6
+  T@U!val!22 -> T@T!val!6
+  T@U!val!23 -> T@T!val!7
+  T@U!val!24 -> T@T!val!8
+  T@U!val!25 -> T@T!val!5
+  T@U!val!26 -> T@T!val!6
+  T@U!val!27 -> T@T!val!5
+  T@U!val!28 -> T@T!val!5
+  T@U!val!29 -> T@T!val!6
+  T@U!val!3 -> T@T!val!4
+  T@U!val!30 -> T@T!val!5
+  T@U!val!31 -> T@T!val!5
+  T@U!val!32 -> T@T!val!5
+  T@U!val!33 -> T@T!val!5
+  T@U!val!34 -> T@T!val!5
+  T@U!val!35 -> T@T!val!6
+  T@U!val!36 -> T@T!val!9
+  T@U!val!37 -> T@T!val!5
+  T@U!val!38 -> T@T!val!5
+  T@U!val!39 -> T@T!val!5
+  T@U!val!4 -> T@T!val!4
+  T@U!val!40 -> T@T!val!5
+  T@U!val!41 -> T@T!val!6
+  T@U!val!42 -> T@T!val!9
+  T@U!val!43 -> T@T!val!5
+  T@U!val!44 -> T@T!val!6
+  T@U!val!45 -> T@T!val!5
+  T@U!val!46 -> T@T!val!5
+  T@U!val!47 -> T@T!val!6
+  T@U!val!48 -> T@T!val!5
+  T@U!val!49 -> T@T!val!5
+  T@U!val!5 -> T@T!val!5
+  T@U!val!50 -> T@T!val!5
+  T@U!val!51 -> T@T!val!6
+  T@U!val!52 -> T@T!val!5
+  T@U!val!53 -> T@T!val!6
+  T@U!val!54 -> T@T!val!5
+  T@U!val!55 -> T@T!val!5
+  T@U!val!56 -> T@T!val!5
+  T@U!val!57 -> T@T!val!5
+  T@U!val!58 -> T@T!val!6
+  T@U!val!59 -> T@T!val!6
+  T@U!val!6 -> T@T!val!5
+  T@U!val!60 -> T@T!val!5
+  T@U!val!61 -> T@T!val!5
+  T@U!val!62 -> T@T!val!6
+  T@U!val!63 -> T@T!val!5
+  T@U!val!64 -> T@T!val!5
+  T@U!val!65 -> T@T!val!6
+  T@U!val!66 -> T@T!val!5
+  T@U!val!67 -> T@T!val!8
+  T@U!val!68 -> T@T!val!8
+  T@U!val!69 -> T@T!val!8
+  T@U!val!7 -> T@T!val!5
+  T@U!val!70 -> T@T!val!8
+  T@U!val!71 -> T@T!val!8
+  T@U!val!72 -> T@T!val!8
+  T@U!val!73 -> T@T!val!8
+  T@U!val!74 -> T@T!val!8
+  T@U!val!75 -> T@T!val!4
+  T@U!val!76 -> T@T!val!15
+  T@U!val!77 -> T@T!val!4
+  T@U!val!78 -> T@T!val!12
+  T@U!val!79 -> T@T!val!4
+  T@U!val!8 -> T@T!val!5
+  T@U!val!80 -> T@T!val!4
+  T@U!val!81 -> T@T!val!13
+  T@U!val!82 -> T@T!val!4
+  T@U!val!83 -> T@T!val!17
+  T@U!val!84 -> T@T!val!4
+  T@U!val!85 -> T@T!val!4
+  T@U!val!86 -> T@T!val!19
+  T@U!val!87 -> T@T!val!4
+  T@U!val!88 -> T@T!val!20
+  T@U!val!89 -> T@T!val!20
+  T@U!val!9 -> T@T!val!5
+  T@U!val!90 -> T@T!val!4
+  T@U!val!91 -> T@T!val!4
+  T@U!val!92 -> T@T!val!19
+  T@U!val!93 -> T@T!val!4
+  T@U!val!94 -> T@T!val!19
+  T@U!val!95 -> T@T!val!20
+  T@U!val!96 -> T@T!val!4
+  T@U!val!97 -> T@T!val!4
+  T@U!val!98 -> T@T!val!4
+  T@U!val!99 -> T@T!val!20
+  true -> T@T!val!2
+  else -> T@T!val!5
+}
+U_2_bool -> {
+  true -> true
+  else -> true
+}
+*** STATE <initial>
+  $_Frame -> **$_Frame
+  $_reverifyPost -> **$_reverifyPost
+  $decr$loop#00 -> **$decr$loop#00
+  $decr_init$loop#00 -> **$decr_init$loop#00
+  $Heap -> T@U!val!105
+  $Heap_at_0 -> **$Heap_at_0
+  $PreLoopHeap$loop#0 -> **$PreLoopHeap$loop#0
+  $rhs#0_0_0 -> 0
+  $Tick -> **$Tick
+  $w$loop#0 -> **$w$loop#0
+  count#0 -> **count#0
+  g#0 -> T@U!val!106
+  i#4 -> **i#4
+  i#5 -> **i#5
+  this -> T@U!val!107
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(65,4): initial state
+  $_Frame -> T@U!val!116
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(66,18)
+  $_reverifyPost -> false
+  i#4 -> 0
+*** END_STATE
+*** STATE /Users/homerooliveira/Desktop/metodos formais/metodosformais/T1/hotel.dfy(67,30)
+  count#0 -> 906
+*** END_STATE
+*** END_MODEL
